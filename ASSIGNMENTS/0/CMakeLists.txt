@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( Assignment0 )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Selfie Selfie.cpp )
+add_executable( Video Video.cpp )
+target_link_libraries( Selfie ${OpenCV_LIBS} )
+target_link_libraries( Video ${OpenCV_LIBS} )

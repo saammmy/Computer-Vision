@@ -1,0 +1,4 @@
+/home/saammmy/CV/ASSIGNMENTS/0/CMakeFiles/edit_cache.dir
+/home/saammmy/CV/ASSIGNMENTS/0/CMakeFiles/Selfie.dir
+/home/saammmy/CV/ASSIGNMENTS/0/CMakeFiles/rebuild_cache.dir
+/home/saammmy/CV/ASSIGNMENTS/0/CMakeFiles/Video.dir
