@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/saammmy/CV/ASSIGNMENTS/0/Selfie.cpp" "/home/saammmy/CV/ASSIGNMENTS/0/CMakeFiles/Selfie.dir/Selfie.cpp.o"
+  "/home/saammmy/Computer-Vision/ASSIGNMENTS/0/Selfie.cpp" "/home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/Selfie.dir/Selfie.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

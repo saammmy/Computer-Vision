@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/saammmy/CV/ASSIGNMENTS/0/Selfie.cpp
-opencv2/core.hpp
--
+/home/saammmy/Computer-Vision/ASSIGNMENTS/0/Selfie.cpp
 opencv2/opencv.hpp
 -
 iostream

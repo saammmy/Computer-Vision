@@ -1,4 +1,4 @@
-/home/saammmy/CV/Test/CMakeFiles/rebuild_cache.dir
-/home/saammmy/CV/Test/CMakeFiles/edit_cache.dir
-/home/saammmy/CV/Test/CMakeFiles/DisplayImage.dir
-/home/saammmy/CV/Test/CMakeFiles/test1.dir
+/home/saammmy/Computer-Vision/Test/CMakeFiles/rebuild_cache.dir
+/home/saammmy/Computer-Vision/Test/CMakeFiles/edit_cache.dir
+/home/saammmy/Computer-Vision/Test/CMakeFiles/DisplayImage.dir
+/home/saammmy/Computer-Vision/Test/CMakeFiles/test1.dir
