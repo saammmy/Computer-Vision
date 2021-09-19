@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BINARISE
+
+# Build rule for target.
+BINARISE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BINARISE
+.PHONY : BINARISE
+
+# fast build rule for target.
+BINARISE/fast:
+	$(MAKE) -f CMakeFiles/BINARISE.dir/build.make CMakeFiles/BINARISE.dir/build
+.PHONY : BINARISE/fast
+
+#=============================================================================
 # Target rules for targets named Selfie
 
 # Build rule for target.
@@ -124,6 +137,19 @@ Selfie/fast:
 .PHONY : Selfie/fast
 
 #=============================================================================
+# Target rules for targets named BINARISE2
+
+# Build rule for target.
+BINARISE2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BINARISE2
+.PHONY : BINARISE2
+
+# fast build rule for target.
+BINARISE2/fast:
+	$(MAKE) -f CMakeFiles/BINARISE2.dir/build.make CMakeFiles/BINARISE2.dir/build
+.PHONY : BINARISE2/fast
+
+#=============================================================================
 # Target rules for targets named Video
 
 # Build rule for target.
@@ -135,6 +161,60 @@ Video: cmake_check_build_system
 Video/fast:
 	$(MAKE) -f CMakeFiles/Video.dir/build.make CMakeFiles/Video.dir/build
 .PHONY : Video/fast
+
+BINARISE.o: BINARISE.cpp.o
+
+.PHONY : BINARISE.o
+
+# target to build an object file
+BINARISE.cpp.o:
+	$(MAKE) -f CMakeFiles/BINARISE.dir/build.make CMakeFiles/BINARISE.dir/BINARISE.cpp.o
+.PHONY : BINARISE.cpp.o
+
+BINARISE.i: BINARISE.cpp.i
+
+.PHONY : BINARISE.i
+
+# target to preprocess a source file
+BINARISE.cpp.i:
+	$(MAKE) -f CMakeFiles/BINARISE.dir/build.make CMakeFiles/BINARISE.dir/BINARISE.cpp.i
+.PHONY : BINARISE.cpp.i
+
+BINARISE.s: BINARISE.cpp.s
+
+.PHONY : BINARISE.s
+
+# target to generate assembly for a file
+BINARISE.cpp.s:
+	$(MAKE) -f CMakeFiles/BINARISE.dir/build.make CMakeFiles/BINARISE.dir/BINARISE.cpp.s
+.PHONY : BINARISE.cpp.s
+
+BINARISE2.o: BINARISE2.cpp.o
+
+.PHONY : BINARISE2.o
+
+# target to build an object file
+BINARISE2.cpp.o:
+	$(MAKE) -f CMakeFiles/BINARISE2.dir/build.make CMakeFiles/BINARISE2.dir/BINARISE2.cpp.o
+.PHONY : BINARISE2.cpp.o
+
+BINARISE2.i: BINARISE2.cpp.i
+
+.PHONY : BINARISE2.i
+
+# target to preprocess a source file
+BINARISE2.cpp.i:
+	$(MAKE) -f CMakeFiles/BINARISE2.dir/build.make CMakeFiles/BINARISE2.dir/BINARISE2.cpp.i
+.PHONY : BINARISE2.cpp.i
+
+BINARISE2.s: BINARISE2.cpp.s
+
+.PHONY : BINARISE2.s
+
+# target to generate assembly for a file
+BINARISE2.cpp.s:
+	$(MAKE) -f CMakeFiles/BINARISE2.dir/build.make CMakeFiles/BINARISE2.dir/BINARISE2.cpp.s
+.PHONY : BINARISE2.cpp.s
 
 Selfie.o: Selfie.cpp.o
 
@@ -196,10 +276,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... BINARISE"
 	@echo "... edit_cache"
 	@echo "... Selfie"
 	@echo "... rebuild_cache"
+	@echo "... BINARISE2"
 	@echo "... Video"
+	@echo "... BINARISE.o"
+	@echo "... BINARISE.i"
+	@echo "... BINARISE.s"
+	@echo "... BINARISE2.o"
+	@echo "... BINARISE2.i"
+	@echo "... BINARISE2.s"
 	@echo "... Selfie.o"
 	@echo "... Selfie.i"
 	@echo "... Selfie.s"

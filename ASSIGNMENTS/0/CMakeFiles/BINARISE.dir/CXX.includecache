@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/saammmy/Computer-Vision/ASSIGNMENTS/0/BINARISE.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+

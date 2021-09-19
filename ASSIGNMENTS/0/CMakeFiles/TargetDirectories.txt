@@ -1,4 +1,6 @@
+/home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/BINARISE.dir
 /home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/edit_cache.dir
 /home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/Selfie.dir
 /home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/rebuild_cache.dir
+/home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/BINARISE2.dir
 /home/saammmy/Computer-Vision/ASSIGNMENTS/0/CMakeFiles/Video.dir
